@@ -192,11 +192,22 @@ width: 100px;
     margin-top: 10px;
     padding: 5px 10px;
     background-color: #f9f355;
-    border: 1px solid #333
-    
-    background-color: #f9f355;
-    border: 1px solid #333
-    
-    
+    border: 1px solid #333 
 }
+    .search-box {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .search-box input {
+      padding: 10px;
+      width: 60%;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .hidden {
+      display: none;
+    }
 
