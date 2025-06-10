@@ -7,43 +7,91 @@
 <title></title>
 </head>
 <body>
-<nav>
-<div style="background-color: darkred">
-<a href="site.html"style="text-align: center; color: #f9f355; font-family: Fira sans-serif, ; font-size: large"><h1>Avalia<span style="color: white;">FILMES</span></h1></a>
-<!--<a style="text-align: center; color: #e5d526; font-family: Fira sans-serif, ; font-size: large"><h1>FILMES</h1></a>-->
+  <header class="main-header">
+    <a href="site.html" class="logo">
+      <h1>
+        <span class="logo-yellow">Avalia</span><span class="logo-white">FILMES</span>
+      </h1>
+    </a>
+    </header>
+
+  <nav class="genre-nav">
+    <ul class="nav-list">
+      <li><a href="terrorfilmes.html">Terror</a></li>
+      <li><a href="comediafilmes.html" >Comédia</a></li>
+      <li><a href="animacaofilmes.html"class="active">Animação</a></li>
+      <li><a href="dramafilmes.html">Drama</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 class="page-title">Filmes de Animação</h1>
+
+<div class="movies-grid">
+
+  <div class="movie-card">
+    <img src="shrek.png" alt="Pôster de Todo Mundo em Pânico">
+    <div class="movie-info">
+    <div class="star-rating">
+      <input type="radio" name="rating-1" id="r1-star5" value="5"><label for="r1-star5">★</label>
+      <input type="radio" name="rating-1" id="r1-star4" value="4"><label for="r1-star4">★</label>
+      <input type="radio" name="rating-1" id="r1-star3" value="3"><label for="r1-star3">★</label>
+      <input type="radio" name="rating-1" id="r1-star2" value="2"><label for="r1-star2">★</label>
+      <input type="radio" name="rating-1" id="r1-star1" value="1"><label for="r1-star1">★</label>
+    </div>
+  <div class="rating-result">Nenhuma avaliação ainda.</div>
+  </div>
 </div>
-</nav>
-</header>
-<hr>
-<nav class="nav">
-<div>
-<ul class="nav-list">
-<Li><a href="terrorfilmes.html">TERROR</a></Li>
-<li><a href="comediafilmes.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COMÉDIA</a></Li>
-<li><a href="animacaofilmes.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ANIMAÇÃO</a></Li>
-<li><a href="dramafilmes.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DRAMA</a></Li>
-</ul>
+
+    <div class="movie-card">
+      <img src="smurf.png" alt="Pôster de Invocação do Mal 2">
+      <div class="movie-info">
+      <div class="star-rating">
+        <input type="radio" name="rating-2" id="r2-star5" value="5"><label for="r2-star5">★</label>
+        <input type="radio" name="rating-2" id="r2-star4" value="4"><label for="r2-star4">★</label>
+        <input type="radio" name="rating-2" id="r2-star3" value="3"><label for="r2-star3">★</label>
+        <input type="radio" name="rating-2" id="r2-star2" value="2"><label for="r2-star2">★</label>
+        <input type="radio" name="rating-2" id="r2-star1" value="1"><label for="r2-star1">★</label>
+      </div>
+    <div class="rating-result">Nenhuma avaliação ainda.</div>
+    </div>
 </div>
-</nav>
-<hr>
-<div class="text">
-<center><h1>FILMES DE ANIMAÇÃO</h1></center>
+
+      <div class="movie-card">
+        <img src="toystory4.png" alt="Pôster de Jogos Mortais X">
+        <div class="movie-info">
+        <div class="star-rating">
+          <input type="radio" name="rating-3" id="r3-star5" value="5"><label for="r3-star5">★</label>
+          <input type="radio" name="rating-3" id="r3-star4" value="4"><label for="r3-star4">★</label>
+          <input type="radio" name="rating-3" id="r3-star3" value="3"><label for="r3-star3">★</label>
+          <input type="radio" name="rating-3" id="r3-star2" value="2"><label for="r3-star2">★</label>
+          <input type="radio" name="rating-3" id="r3-star1" value="1"><label for="r3-star1">★</label>
+        </div>
+        <div class="rating-result">Nenhuma avaliação ainda.</div>
+    </div>
 </div>
-<div class="filmes-list-genero">
-<img src="shrek.png" alt="filme1">
-<img src="toystory4.png" alt="filme2">
-<img src="smurf.png" alt="filme3">
-<img src="oreilao.png" alt="filme4">
+
+      <div class="movie-card">
+      <img src="oreilao.png" alt="Pôster de It: A Coisa">
+      <div class="movie-info">
+      <div class="star-rating">
+        <input type="radio" name="rating-4" id="r4-star5" value="5"><label for="r4-star5">★</label>
+          <input type="radio" name="rating-4" id="r4-star4" value="4"><label for="r4-star4">★</label>
+          <input type="radio" name="rating-4" id="r4-star3" value="3"><label for="r4-star3">★</label>
+          <input type="radio" name="rating-4" id="r4-star2" value="2"><label for="r4-star2">★</label>
+          <input type="radio" name="rating-4" id="r4-star1" value="1"><label for="r4-star1">★</label>
+        </div>
+    <div class="rating-result">Nenhuma avaliação ainda.</div>
+  </div>
 </div>
-</nav>
+            
 </div>
-<div class="container">
-</section>
+</main>
+
+<footer class="main-footer">
+  <h2>AvaliaFILMES</h2>
+  <p>@unicap.oficial</p>
 </footer>
-<h2>AvaliaFilmes</h2>
-<p>@unicap.oficial</p>
-</footer>
-</section>
-</div>
-</body>
+    <script src="avaliacao.js"></script>
+    </body>
 </html>
